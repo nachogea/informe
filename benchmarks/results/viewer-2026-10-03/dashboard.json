@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "infrastructure-overview",
+    "revision": 1,
+    "sources": [
+      {
+        "label": "Illustrative figures created for the viewer pilot; no live account connection"
+      }
+    ]
+  },
+  "root": {
+    "type": "column",
+    "id": "report",
+    "gap": 24,
+    "children": [
+      {
+        "type": "heading",
+        "id": "title",
+        "level": 1,
+        "text": "Infrastructure cost overview"
+      },
+      {
+        "type": "markdown",
+        "id": "intro",
+        "source": "**September 2026 \u00b7 Illustrative operating report**\n\nSpend is within the monthly envelope. Compute remains the largest opportunity; the immediate recommendation is to right-size low-utilization instances before committing to additional capacity."
+      },
+      {
+        "type": "row",
+        "id": "summary",
+        "gap": 16,
+        "children": [
+          {
+            "type": "metric",
+            "id": "spend",
+            "label": "MONTHLY SPEND",
+            "value": "$381,000",
+            "secondary": "\u22127.5% from the $412k forecast"
+          },
+          {
+            "type": "metric",
+            "id": "compute",
+            "label": "COMPUTE SHARE",
+            "value": "49.3%",
+            "secondary": "$188,000 across EC2 services"
+          },
+          {
+            "type": "metric",
+            "id": "opportunity",
+            "label": "IDENTIFIED SAVINGS",
+            "value": "$34,000",
+            "secondary": "Estimate; validate against usage"
+          }
+        ]
+      },
+      {
+        "type": "chart",
+        "id": "services",
+        "title": "Where the budget goes",
+        "kind": "bar",
+        "unit": "USD",
+        "data": [
+          {
+            "label": "Compute",
+            "value": 188000
+          },
+          {
+            "label": "Database",
+            "value": 89000
+          },
+          {
+            "label": "Storage",
+            "value": 44000
+          },
+          {
+            "label": "Network",
+            "value": 37000
+          },
+          {
+            "label": "Other",
+            "value": 23000
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "actions",
+        "title": "Prioritized savings opportunities",
+        "columns": [
+          "Area",
+          "Monthly spend",
+          "Potential savings",
+          "Next action"
+        ],
+        "rows": [
+          [
+            "Compute",
+            "$188,000",
+            "$22,000",
+            "Right-size low utilization"
+          ],
+          [
+            "Database",
+            "$89,000",
+            "$8,000",
+            "Review replica capacity"
+          ],
+          [
+            "Storage",
+            "$44,000",
+            "$4,000",
+            "Apply lifecycle policies"
+          ],
+          [
+            "Network",
+            "$37,000",
+            "$0",
+            "Measure transfer patterns"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "recommendation",
+        "level": 2,
+        "text": "Recommended next move"
+      },
+      {
+        "type": "markdown",
+        "id": "details",
+        "source": "Start with a **one-week utilization audit** of the compute fleet. Apply changes to a small cohort, track latency and error rates, and expand only after verifying service health.\n\n- Confirm the baseline with the billing owner.\n- Review recommendations with service owners.\n- Record realized savings separately from projected savings.\n\nRead the [AWS cost optimization guidance](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/)."
+      }
+    ]
+  }
+}

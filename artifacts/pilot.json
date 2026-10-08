@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column",
+    "id": "pilot-root",
+    "gap": 20,
+    "children": [
+      {
+        "type": "heading",
+        "id": "pilot-title",
+        "level": 1,
+        "text": "A conversation becomes a native artifact"
+      },
+      {
+        "type": "text",
+        "id": "pilot-description",
+        "text": "Describe an idea here. Review it in GPUI. Ask for changes in the conversation."
+      },
+      {
+        "type": "row",
+        "id": "pilot-summary",
+        "gap": 16,
+        "children": [
+          {
+            "type": "metric",
+            "id": "pilot-format",
+            "label": "Artifact format",
+            "value": "JSON",
+            "secondary": "Semantic nodes with stable IDs"
+          },
+          {
+            "type": "metric",
+            "id": "pilot-renderer",
+            "label": "Preview",
+            "value": "Native",
+            "secondary": "Rendered directly by GPUI"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "workflow-generate",
+        "children": [
+          {
+            "type": "heading",
+            "id": "workflow-generate-title",
+            "level": 2,
+            "text": "1. Describe what you want"
+          },
+          {
+            "type": "text",
+            "id": "workflow-generate-body",
+            "text": "For example: Generate a native artifact explaining our prototype architecture, including the reload flow and the next three milestones. I translate the request into the supported artifact primitives and validate the JSON."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "workflow-preview",
+        "children": [
+          {
+            "type": "heading",
+            "id": "workflow-preview-title",
+            "level": 2,
+            "text": "2. Open and review"
+          },
+          {
+            "type": "text",
+            "id": "workflow-preview-body",
+            "text": "Open this report in Informe. Read and copy text normally, or choose Select components to target a metric, chart, or table. Click Comment\u2026 to ask for a change."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "workflow-revise",
+        "children": [
+          {
+            "type": "heading",
+            "id": "workflow-revise-title",
+            "level": 2,
+            "text": "3. Send feedback and review the revision"
+          },
+          {
+            "type": "text",
+            "id": "workflow-revise-body",
+            "text": "Choose Send feedback to agent while the agent is waiting with review --wait. The agent receives the comment and original target, applies a guarded revision, and the viewer highlights semantic changes."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "id": "pilot-feedback-limit",
+        "kind": "info",
+        "title": "Local review with your existing agent",
+        "body": "Feedback is stored beside this file and read by the CLI. The viewer makes no model calls. The agent must be running the review adapter to receive it; buttons inside artifacts still support only noop."
+      }
+    ]
+  },
+  "metadata": {
+    "id": "artifact-preview-pilot",
+    "revision": 1,
+    "sources": [
+      {
+        "label": "Bundled local workflow example; illustrative content"
+      }
+    ]
+  }
+}

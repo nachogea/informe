@@ -1,0 +1,46 @@
+{
+  "id": "local-macos26-arm64-pilot",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "cpu": "Apple M4",
+  "base_commit": "6b360ef3d1d11808e9713a9fa423f5863a5f654c",
+  "source_state": "uncommitted milestone; hashes identify measured sources",
+  "build": "release",
+  "rust": "1.97.1",
+  "gpui_revision": "1a84d5d92bd7d6c1cabb116062650af545783fe9",
+  "window": [
+    1100,
+    760
+  ],
+  "inference": "none: fixed fixtures",
+  "marker_limit": "framework readiness; not physical display",
+  "native_reload_poll_ms": 250,
+  "files": {
+    "src/artifact.rs": "c1fcd87a8b0380eeae3ebcfa36eb52db2495aa75b3fe409ca5cd8ae063a33606",
+    "src/render.rs": "75d14c920b6a4f944fbacfe4cb6230a4cfa52393e2edf8002313126c6cdb4491",
+    "src/preview.rs": "8e029e189df7c40fe603490fc51b31b1d4ae5ba34366f1ed17e2bc4129fc31d9",
+    "src/data_visuals.rs": "d33d107d8a9d500ac6281a6f79a229885e8a11fc7bc56a6c6bf11db3939e03ba",
+    "src/main.rs": "237cea1dcc635b26f179996dd0bf9a332c93f0b99ea5d5e78cbfc3fb2689c4f6",
+    "src/loader.rs": "cbcbe86b368922af341c77a3d0a582462dd3e7655fc59da26ea7b9ae66f43193",
+    "benchmarks/fixtures/theme.css": "fb07b92d2937b6f49ca80aa78f6effe33bd1fe26da85bce37a73c0bdd0a1c155",
+    "benchmarks/fixtures/interaction.js": "88de361c2d7d4fc74a24e07238845799996c9e0bb90e76f47640ce859cb4687f",
+    "benchmarks/fixtures/dashboard.shared.html": "722a9e01890d8551623ed93440689aa12419ffaaf7fad842874be338020ac6fe",
+    "benchmarks/fixtures/long-review.json": "d85eb877e30b118749fe8394ef0a2a2617019c621db970796054f2759c9d8e3b",
+    "benchmarks/fixtures/long-review.shared.html": "099784b57f2c9f8d9b7a7bafa97b9e37ad3943caed1781ede8b10780b15fb52c",
+    "benchmarks/fixtures/dashboard.json": "d5fb64a11f353e9fb47cd138adfda3a5ab8439c4c6fe0b5856063b82c2f6e33d",
+    "benchmarks/fixtures/cost-breakdown.json": "50eedc61c667aaa070c536c7d8c7dbf7585cde4e4e0ae88214f32ce056e52bcd",
+    "benchmarks/fixtures/cost-breakdown.standalone.html": "dee3cbeeda63fced5970da93f46bb853afa96f569948dfb29c5b4fad1c9c46b4",
+    "benchmarks/fixtures/dashboard.standalone.html": "6fd561d06ac6bd68c1065af7a3249d5eeee5610bc04c48f9437e1bf631666626",
+    "benchmarks/fixtures/cost-breakdown.shared.html": "594c0b79a70d96a89f0c7850955572d165ab01280b4bc6e39cb4b03071440db5",
+    "benchmarks/fixtures/long-review.standalone.html": "be0cc9e3af38838d5da24cd0165479f797d8d743609b91e1cc6d36459e93b3a9",
+    "target/release/artifact-preview": "65edc5048d54f9efa72ae810a721c649d9ff6ba671becd65582e76c24e206625"
+  },
+  "benchmark_tools": {
+    "benchmarks/harnesses/native.py": "f67ceaee72957b2adc3ea530eedb78f4470d95bce82f91d2d806e5c0fe8fbd5c",
+    "benchmarks/harnesses/browser.py": "93f4bce868a43163f56cf87339f2a5cab9259e8e1b3992773e83ad99d5d74a1b",
+    "benchmarks/run_local.py": "bcc2021c0fbf81dc14f23f60e4464863d45e80d40de695b92dd74e99416dcb06"
+  },
+  "playwright": "1.58.0",
+  "chromium": "145.0.7632.6",
+  "workload": "Other development preview processes were present; no OS cache flushing."
+}

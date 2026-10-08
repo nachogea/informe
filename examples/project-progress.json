@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column",
+    "id": "project-progress",
+    "gap": 20,
+    "children": [
+      {
+        "type": "heading",
+        "id": "title",
+        "level": 1,
+        "text": "Informe: ready to review"
+      },
+      {
+        "type": "text",
+        "id": "summary",
+        "text": "Two milestones are complete: a native document workspace and a local comment \u2192 agent revision \u2192 highlighted changes loop. Signed public distribution and PDF sharing are next."
+      },
+      {
+        "type": "row",
+        "id": "metrics",
+        "gap": 12,
+        "children": [
+          {
+            "type": "metric",
+            "id": "milestone",
+            "label": "Product milestone",
+            "value": "2 of 3",
+            "secondary": "Native reading + structured review"
+          },
+          {
+            "type": "metric",
+            "id": "semantic-nodes",
+            "label": "Semantic primitives",
+            "value": "11",
+            "secondary": "The JSON v1 contract stays small"
+          },
+          {
+            "type": "metric",
+            "id": "sharing",
+            "label": "Sharing formats",
+            "value": "PNG + CSV",
+            "secondary": "Copy text, images and table data"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "delivered",
+        "title": "What you can try now",
+        "columns": [
+          "Capability",
+          "How to use it",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Read and copy",
+            "Drag / double-click, then Command-C",
+            "Selectable text throughout the report"
+          ],
+          [
+            "Copy the whole report",
+            "Command-A, then Command-C",
+            "Includes text below the viewport"
+          ],
+          [
+            "Keep multiple reports open",
+            "Open another artifact path",
+            "One app, document tabs, recent documents"
+          ],
+          [
+            "Share an image",
+            "Copy image or Save PNG\u2026",
+            "Full content without app chrome"
+          ],
+          [
+            "Export table data",
+            "Select components \u2192 click this table",
+            "Copy TSV or save CSV"
+          ],
+          [
+            "Review with an agent",
+            "Comment\u2026 \u2192 Send feedback to agent",
+            "Revision-bound JSON; changed targets flagged"
+          ],
+          [
+            "See what changed",
+            "Changes panel / Mark this revision reviewed",
+            "Semantic differences against the accepted baseline"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "id": "next",
+        "kind": "info",
+        "title": "Next: make it easy to adopt and share",
+        "body": "Milestone 3 adds signed installation, Homebrew distribution, explicit agent setup, searchable PDF export, and outside pilots."
+      },
+      {
+        "type": "text",
+        "id": "limits",
+        "text": "PNG exports use a fixed document layout. This report contains project status, not performance results; earlier benchmark numbers predate this runtime."
+      }
+    ]
+  },
+  "metadata": {
+    "id": "artifact-preview-progress",
+    "revision": 2,
+    "sources": [
+      {
+        "label": "Repository roadmap and verified local milestone checks",
+        "uri": "docs/roadmap.md"
+      }
+    ]
+  }
+}

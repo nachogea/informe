@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>cost-breakdown</title><style>*{box-sizing:border-box}body{margin:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;color:#202a40;background:#f5f7fb}header{padding:20px 24px;background:white;border-bottom:1px solid #e1e6ef;font-weight:700}.layout{display:flex;height:calc(100vh - 59px)}main{flex:1;overflow:auto;padding:32px;min-width:440px}aside{width:260px;flex-shrink:0;padding:24px;background:white;border-left:1px solid #e1e6ef}.node{border:1px solid transparent}.selected{border-color:#5468da}.column,.card{display:flex;flex-direction:column;align-items:flex-start;gap:16px}.column{width:100%}.row{display:flex;gap:12px;width:100%}.row>.node{flex:1;min-width:180px}.card,.metric,.chart,.table{background:white;border-radius:10px;padding:20px;border-color:#e1e6ef;width:100%}h1,h2,h3,h4,h5,h6,p{margin:0}h1{font-size:30px}h2{font-size:24px}h3{font-size:20px}p,.label{color:#6c7890}.value{font-size:30px;font-weight:700;margin:8px 0}.secondary{color:#5468da}.callout{padding:16px;border-radius:8px;background:#edf2ff;width:100%}.warning{background:#fff6e5}.error{background:#ffeeee}.success{background:#edf9f1}.callout p{margin-top:8px}.button,button{background:#5468da;color:white;padding:10px 16px;border-radius:6px;border:0;cursor:pointer}.divider{width:100%;border-top:1px solid #e1e6ef}.bars{margin-top:16px}.bar{display:flex;align-items:center;gap:12px;margin:12px 0}.bar-label{width:105px}.track{flex:1;background:#eef1f7;height:18px;border-radius:4px}.fill{height:100%;background:#5468da;border-radius:4px}.bar-value{width:84px;text-align:right}.axis{display:flex;justify-content:space-between;color:#6c7890}table{width:100%;border-collapse:collapse;margin-top:16px;table-layout:fixed}th,td{text-align:left;padding:10px;border-bottom:1px solid #e1e6ef;overflow-wrap:anywhere}tbody tr:nth-child(even){background:#f5f7fb}pre{white-space:pre-wrap;font:inherit}</style><body><header>Artifact Preview</header><div class="layout"><main><div class="node column " data-node-id="cost-root" data-type="column" data-text="Where the cloud budget goes
+
+Illustrative AWS forecast · sample data, not connected to an AWS account.
+
+Projected monthly spend by service
+EC2	188 USD k
+RDS	96 USD k
+S3	54 USD k
+Data transfer	42 USD k
+Other	32 USD k
+
+Service	Current	Projected	Change
+EC2	$172,000	$188,000	+9.3%
+RDS	$91,000	$96,000	+5.5%
+S3	$49,000	$54,000	+10.2%
+Data transfer	$39,000	$42,000	+7.7%
+Other	$30,000	$32,000	+6.7%
+Total	$381,000	$412,000	+8.1%
+
+Compute is the largest driver
+EC2 represents 45.6% of projected spend and $16,000 of the $31,000 increase. Review compute utilization first." style="gap:20px"><div class="node heading " data-node-id="cost-title" data-type="heading" data-text="Where the cloud budget goes"><h1>Where the cloud budget goes</h1></div><div class="node text " data-node-id="cost-description" data-type="text" data-text="Illustrative AWS forecast · sample data, not connected to an AWS account."><p>Illustrative AWS forecast · sample data, not connected to an AWS account.</p></div><div class="node chart bar" data-node-id="service-chart" data-type="chart" data-text="Projected monthly spend by service
+EC2	188 USD k
+RDS	96 USD k
+S3	54 USD k
+Data transfer	42 USD k
+Other	32 USD k"><strong>Projected monthly spend by service</strong><div class="bars"><div class="bar"><span class="bar-label">EC2</span><div class="track"><div class="fill" style="width:100.0%"></div></div><span class="bar-value">188 USD k</span></div><div class="bar"><span class="bar-label">RDS</span><div class="track"><div class="fill" style="width:51.06382978723404%"></div></div><span class="bar-value">96 USD k</span></div><div class="bar"><span class="bar-label">S3</span><div class="track"><div class="fill" style="width:28.72340425531915%"></div></div><span class="bar-value">54 USD k</span></div><div class="bar"><span class="bar-label">Data transfer</span><div class="track"><div class="fill" style="width:22.340425531914892%"></div></div><span class="bar-value">42 USD k</span></div><div class="bar"><span class="bar-label">Other</span><div class="track"><div class="fill" style="width:17.02127659574468%"></div></div><span class="bar-value">32 USD k</span></div></div><div class="axis"><span>0</span><span>188</span></div></div><div class="node table " data-node-id="service-table" data-type="table" data-text="Service	Current	Projected	Change
+EC2	$172,000	$188,000	+9.3%
+RDS	$91,000	$96,000	+5.5%
+S3	$49,000	$54,000	+10.2%
+Data transfer	$39,000	$42,000	+7.7%
+Other	$30,000	$32,000	+6.7%
+Total	$381,000	$412,000	+8.1%"><strong>Forecast breakdown</strong><table><thead><tr><th>Service</th><th>Current</th><th>Projected</th><th>Change</th></tr></thead><tbody><tr><td>EC2</td><td>$172,000</td><td>$188,000</td><td>+9.3%</td></tr><tr><td>RDS</td><td>$91,000</td><td>$96,000</td><td>+5.5%</td></tr><tr><td>S3</td><td>$49,000</td><td>$54,000</td><td>+10.2%</td></tr><tr><td>Data transfer</td><td>$39,000</td><td>$42,000</td><td>+7.7%</td></tr><tr><td>Other</td><td>$30,000</td><td>$32,000</td><td>+6.7%</td></tr><tr><td>Total</td><td>$381,000</td><td>$412,000</td><td>+8.1%</td></tr></tbody></table></div><div class="node callout info" data-node-id="cost-insight" data-type="callout" data-text="Compute is the largest driver
+EC2 represents 45.6% of projected spend and $16,000 of the $31,000 increase. Review compute utilization first."><strong>Compute is the largest driver</strong><p>EC2 represents 45.6% of projected spend and $16,000 of the $31,000 increase. Review compute utilization first.</p></div></div></main><aside><strong>Selected node</strong><pre id="selection">Click an artifact component.</pre><button id="copy" hidden>Copy text</button></aside></div><script>document.addEventListener('click',async e=>{if(e.target.id==='copy'){await navigator.clipboard.writeText(window.selected?.dataset.text||'');return}const n=e.target.closest('[data-node-id]');if(!n)return;document.querySelector('.selected')?.classList.remove('selected');n.classList.add('selected');window.selected=n;document.querySelector('#selection').textContent='ID\n'+n.dataset.nodeId+'\n\nTYPE\n'+n.dataset.type;document.querySelector('#copy').hidden=false});document.fonts.ready.then(()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{window.artifactReady={marker:'html_fonts_two_raf',nodes:document.querySelectorAll('[data-node-id]').length}})));</script></body></html>

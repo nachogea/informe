@@ -1,0 +1,11 @@
+{"file": "benchmarks/fixtures/cost-breakdown.json", "encoding": "o200k_base", "tokens": 561, "bytes": 2239, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/cost-breakdown.shared.html", "encoding": "o200k_base", "tokens": 1334, "bytes": 4017, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/cost-breakdown.standalone.html", "encoding": "o200k_base", "tokens": 2080, "bytes": 6474, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/dashboard.json", "encoding": "o200k_base", "tokens": 350, "bytes": 1360, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/dashboard.shared.html", "encoding": "o200k_base", "tokens": 609, "bytes": 2355, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/dashboard.standalone.html", "encoding": "o200k_base", "tokens": 1355, "bytes": 4812, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/interaction.js", "encoding": "o200k_base", "tokens": 151, "bytes": 659, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/long-review.json", "encoding": "o200k_base", "tokens": 2042, "bytes": 8886, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/long-review.shared.html", "encoding": "o200k_base", "tokens": 3527, "bytes": 15587, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/long-review.standalone.html", "encoding": "o200k_base", "tokens": 4273, "bytes": 18044, "measurement": "saved_file_only"}
+{"file": "benchmarks/fixtures/theme.css", "encoding": "o200k_base", "tokens": 605, "bytes": 1846, "measurement": "saved_file_only"}

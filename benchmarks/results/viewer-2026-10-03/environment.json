@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-03",
+  "cpu": "Apple M4",
+  "architecture": "arm64",
+  "os": "macOS 26.6.2 (25G83)",
+  "toolchain": "Rust 1.97.1",
+  "build": "release",
+  "base_commit": "c0433884f6b5def3286c11c9349dd0d29e368584",
+  "source_state": "Viewer pass in the containing commit",
+  "binary_sha256": "f2466a2cbd34cf02ceaec75a653c2493c63688ee45a17e0cd9f6b72873330231",
+  "viewport_logical_px": [
+    1100,
+    760
+  ],
+  "trials_per_document_per_scenario": 20,
+  "display_scale": 2,
+  "poll_interval_ms": 250,
+  "marker_poll_ms": 2,
+  "fixtures": {
+    "examples/viewer/dashboard.json": {
+      "bytes": 3652,
+      "sha256": "37b4fc8e864c46b464768fdc78788c29512e2b9f78e24724348c8a66d3a605a2"
+    },
+    "examples/viewer/report.md": {
+      "bytes": 2152,
+      "sha256": "8582839dd99b065d04c2eed309461adc04b38a4168501126c39a2eebc1130fdb"
+    },
+    "examples/viewer/plan.md": {
+      "bytes": 2355,
+      "sha256": "1e99bfd4baea0baa8f6b1a1a024efdb477522f1b1fbcee6cfefcd19be47be9a7"
+    }
+  }
+}

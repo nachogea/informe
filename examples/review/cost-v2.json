@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column",
+    "id": "root",
+    "gap": 20,
+    "children": [
+      {
+        "type": "heading",
+        "id": "title",
+        "level": 1,
+        "text": "AWS Cost Forecast"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "text": "Illustrative sample data. Compare projected spend with the available baseline."
+      },
+      {
+        "type": "row",
+        "id": "metrics",
+        "gap": 16,
+        "children": [
+          {
+            "type": "metric",
+            "id": "projected-spend",
+            "label": "Projected",
+            "value": "$412,000",
+            "secondary": "+15.7% vs last month ($356,000)"
+          },
+          {
+            "type": "metric",
+            "id": "current-spend",
+            "label": "Current",
+            "value": "$381,000"
+          },
+          {
+            "type": "metric",
+            "id": "last-month-spend",
+            "label": "Last month",
+            "value": "$356,000",
+            "secondary": "Illustrative comparison baseline"
+          }
+        ]
+      },
+      {
+        "type": "divider",
+        "id": "forecast-divider"
+      },
+      {
+        "type": "callout",
+        "id": "month-comparison",
+        "kind": "info",
+        "title": "Compared with last month",
+        "body": "Projected spend is $56,000 higher than the illustrative $356,000 last-month baseline. This is a 15.7% increase; these figures are sample data."
+      },
+      {
+        "type": "callout",
+        "id": "warning",
+        "kind": "warning",
+        "title": "Potential wasted work",
+        "body": "Most grouped forecast shards are never viewed. Review unused groups before expanding the next forecast run."
+      }
+    ]
+  },
+  "metadata": {
+    "id": "cost-review-demo",
+    "revision": 2,
+    "sources": [
+      {
+        "label": "Illustrative AWS forecast; no live account connection"
+      }
+    ]
+  }
+}

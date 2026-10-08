@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column", "id": "root", "gap": 18,
+    "children": [
+      { "type": "heading", "id": "title", "level": 1, "text": "Native artifact primitives" },
+      { "type": "text", "id": "intro", "text": "Click a component to inspect its semantic identity. Containers can be selected by clicking their empty space." },
+      { "type": "card", "id": "summary-card", "children": [
+        { "type": "heading", "id": "card-heading", "level": 2, "text": "A semantic card" },
+        { "type": "text", "id": "card-body", "text": "A card groups related content with renderer-owned padding, borders, and typography. This longer paragraph also exercises text wrapping when the preview window is resized." },
+        { "type": "button", "id": "card-button", "label": "Select this button", "action": { "type": "noop" } }
+      ] },
+      { "type": "row", "id": "metrics", "gap": 12, "children": [
+        { "type": "metric", "id": "nodes", "label": "Primitives", "value": "9", "secondary": "A deliberately small vocabulary" },
+        { "type": "metric", "id": "renderers", "label": "Rendering backends", "value": "1", "secondary": "Native GPUI" }
+      ] },
+      { "type": "divider", "id": "separator" },
+      { "type": "callout", "id": "info", "kind": "info", "title": "Information", "body": "The JSON communicates meaning. The native renderer owns appearance." },
+      { "type": "callout", "id": "warning", "kind": "warning", "title": "Warning", "body": "Invalid edits retain the last valid preview." },
+      { "type": "callout", "id": "error", "kind": "error", "title": "Error", "body": "This is an example error callout, not a runtime failure." },
+      { "type": "callout", "id": "success", "kind": "success", "body": "All required primitives are available." }
+    ]
+  }
+}

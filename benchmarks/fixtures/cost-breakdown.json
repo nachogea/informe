@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column",
+    "id": "cost-root",
+    "gap": 20,
+    "children": [
+      {
+        "type": "heading",
+        "id": "cost-title",
+        "level": 1,
+        "text": "Where the cloud budget goes"
+      },
+      {
+        "type": "text",
+        "id": "cost-description",
+        "text": "Illustrative AWS forecast \u00b7 sample data, not connected to an AWS account."
+      },
+      {
+        "type": "chart",
+        "id": "service-chart",
+        "title": "Projected monthly spend by service",
+        "kind": "bar",
+        "unit": "USD k",
+        "data": [
+          {
+            "label": "EC2",
+            "value": 188
+          },
+          {
+            "label": "RDS",
+            "value": 96
+          },
+          {
+            "label": "S3",
+            "value": 54
+          },
+          {
+            "label": "Data transfer",
+            "value": 42
+          },
+          {
+            "label": "Other",
+            "value": 32
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "service-table",
+        "title": "Forecast breakdown",
+        "columns": [
+          "Service",
+          "Current",
+          "Projected",
+          "Change"
+        ],
+        "rows": [
+          [
+            "EC2",
+            "$172,000",
+            "$188,000",
+            "+9.3%"
+          ],
+          [
+            "RDS",
+            "$91,000",
+            "$96,000",
+            "+5.5%"
+          ],
+          [
+            "S3",
+            "$49,000",
+            "$54,000",
+            "+10.2%"
+          ],
+          [
+            "Data transfer",
+            "$39,000",
+            "$42,000",
+            "+7.7%"
+          ],
+          [
+            "Other",
+            "$30,000",
+            "$32,000",
+            "+6.7%"
+          ],
+          [
+            "Total",
+            "$381,000",
+            "$412,000",
+            "+8.1%"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "id": "cost-insight",
+        "kind": "info",
+        "title": "Compute is the largest driver",
+        "body": "EC2 represents 45.6% of projected spend and $16,000 of the $31,000 increase. Review compute utilization first."
+      }
+    ]
+  }
+}

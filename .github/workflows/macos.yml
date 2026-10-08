@@ -1,0 +1,35 @@
+name: macOS prototype
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-and-package:
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned Rust
+        run: rustup show
+      - name: Check
+        run: |
+          python3 -m unittest discover -s benchmarks -p test_tools.py
+          cargo fmt --check
+          cargo test --locked
+          cargo clippy --locked --all-targets -- -D warnings
+      - name: Build internal release archive
+        run: sh scripts/package-macos.sh
+      - name: Validate relocated bundle
+        run: |
+          mkdir -p "$RUNNER_TEMP/relocated"
+          tar -xzf target/dist/*.tar.gz -C "$RUNNER_TEMP/relocated"
+          "$RUNNER_TEMP/relocated/Informe.app/Contents/MacOS/informe" --version
+          "$RUNNER_TEMP/relocated/Informe.app/Contents/MacOS/informe" --check "$RUNNER_TEMP/relocated/Informe.app/Contents/Resources/dashboard.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unsigned-macos-internal-pilot
+          path: target/dist/*

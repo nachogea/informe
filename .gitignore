@@ -1,0 +1,12 @@
+/target
+.DS_Store
+*.log
+
+__pycache__/
+.venv/
+benchmarks/results/**/*.png
+
+# Local review data and transaction files
+*.review.json
+*.review.lock
+*.review.pending-*

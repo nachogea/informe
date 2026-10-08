@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Folded report icon">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#6578EB"/>
+      <stop offset="1" stop-color="#3548BD"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="196" fill="url(#tile)"/>
+  <rect x="238" y="260" width="430" height="546" rx="44" fill="#91A0F3" transform="rotate(-9 453 533)"/>
+  <path d="M336 206H594L750 362V774Q750 818 706 818H336Q292 818 292 774V250Q292 206 336 206Z" fill="#FFFBF5"/>
+  <path d="M594 206V322Q594 362 634 362H750Z" fill="#FFAD85"/>
+  <g fill="#485BCD">
+    <rect x="354" y="436" width="214" height="44" rx="12"/>
+    <rect x="354" y="546" width="302" height="44" rx="12"/>
+    <rect x="354" y="656" width="158" height="44" rx="12"/>
+  </g>
+</svg>

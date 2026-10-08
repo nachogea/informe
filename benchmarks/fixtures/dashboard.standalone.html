@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>dashboard</title><style>*{box-sizing:border-box}body{margin:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;color:#202a40;background:#f5f7fb}header{padding:20px 24px;background:white;border-bottom:1px solid #e1e6ef;font-weight:700}.layout{display:flex;height:calc(100vh - 59px)}main{flex:1;overflow:auto;padding:32px;min-width:440px}aside{width:260px;flex-shrink:0;padding:24px;background:white;border-left:1px solid #e1e6ef}.node{border:1px solid transparent}.selected{border-color:#5468da}.column,.card{display:flex;flex-direction:column;align-items:flex-start;gap:16px}.column{width:100%}.row{display:flex;gap:12px;width:100%}.row>.node{flex:1;min-width:180px}.card,.metric,.chart,.table{background:white;border-radius:10px;padding:20px;border-color:#e1e6ef;width:100%}h1,h2,h3,h4,h5,h6,p{margin:0}h1{font-size:30px}h2{font-size:24px}h3{font-size:20px}p,.label{color:#6c7890}.value{font-size:30px;font-weight:700;margin:8px 0}.secondary{color:#5468da}.callout{padding:16px;border-radius:8px;background:#edf2ff;width:100%}.warning{background:#fff6e5}.error{background:#ffeeee}.success{background:#edf9f1}.callout p{margin-top:8px}.button,button{background:#5468da;color:white;padding:10px 16px;border-radius:6px;border:0;cursor:pointer}.divider{width:100%;border-top:1px solid #e1e6ef}.bars{margin-top:16px}.bar{display:flex;align-items:center;gap:12px;margin:12px 0}.bar-label{width:105px}.track{flex:1;background:#eef1f7;height:18px;border-radius:4px}.fill{height:100%;background:#5468da;border-radius:4px}.bar-value{width:84px;text-align:right}.axis{display:flex;justify-content:space-between;color:#6c7890}table{width:100%;border-collapse:collapse;margin-top:16px;table-layout:fixed}th,td{text-align:left;padding:10px;border-bottom:1px solid #e1e6ef;overflow-wrap:anywhere}tbody tr:nth-child(even){background:#f5f7fb}pre{white-space:pre-wrap;font:inherit}</style><body><header>Artifact Preview</header><div class="layout"><main><div class="node column " data-node-id="root" data-type="column" data-text="AWS Cost Forecast
+
+Projected spend based on the last 30 days.
+
+Projected
+$412,000
++8.2% vs. current spend
+
+Current
+$381,000
+
+Potential wasted work
+Most grouped forecast shards are never viewed. Review unused groups before expanding the next forecast run.
+
+Inspect unused shards" style="gap:20px"><div class="node heading " data-node-id="title" data-type="heading" data-text="AWS Cost Forecast"><h1>AWS Cost Forecast</h1></div><div class="node text " data-node-id="description" data-type="text" data-text="Projected spend based on the last 30 days."><p>Projected spend based on the last 30 days.</p></div><div class="node row " data-node-id="metrics" data-type="row" data-text="Projected
+$412,000
++8.2% vs. current spend
+
+Current
+$381,000" style="gap:16px"><div class="node metric " data-node-id="projected-spend" data-type="metric" data-text="Projected
+$412,000
++8.2% vs. current spend"><div class="label">Projected</div><div class="value">$412,000</div><div class="secondary">+8.2% vs. current spend</div></div><div class="node metric " data-node-id="current-spend" data-type="metric" data-text="Current
+$381,000"><div class="label">Current</div><div class="value">$381,000</div><div class="secondary"></div></div></div><div class="node divider " data-node-id="forecast-divider" data-type="divider" data-text=""></div><div class="node callout warning" data-node-id="warning" data-type="callout" data-text="Potential wasted work
+Most grouped forecast shards are never viewed. Review unused groups before expanding the next forecast run."><strong>Potential wasted work</strong><p>Most grouped forecast shards are never viewed. Review unused groups before expanding the next forecast run.</p></div><div class="node button " data-node-id="inspect-shards" data-type="button" data-text="Inspect unused shards">Inspect unused shards</div></div></main><aside><strong>Selected node</strong><pre id="selection">Click an artifact component.</pre><button id="copy" hidden>Copy text</button></aside></div><script>document.addEventListener('click',async e=>{if(e.target.id==='copy'){await navigator.clipboard.writeText(window.selected?.dataset.text||'');return}const n=e.target.closest('[data-node-id]');if(!n)return;document.querySelector('.selected')?.classList.remove('selected');n.classList.add('selected');window.selected=n;document.querySelector('#selection').textContent='ID\n'+n.dataset.nodeId+'\n\nTYPE\n'+n.dataset.type;document.querySelector('#copy').hidden=false});document.fonts.ready.then(()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{window.artifactReady={marker:'html_fonts_two_raf',nodes:document.querySelectorAll('[data-node-id]').length}})));</script></body></html>

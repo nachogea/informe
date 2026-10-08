@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="240 164 562 696" role="img" aria-label="Folded report mark">
+  <path d="M336 206H594L750 362V774Q750 818 706 818H336Q292 818 292 774V250Q292 206 336 206Z" fill="#485BCD"/>
+  <path d="M594 206V322Q594 362 634 362H750Z" fill="#FFAD85"/>
+  <g fill="#FFFBF5">
+    <rect x="354" y="436" width="214" height="44" rx="12"/>
+    <rect x="354" y="546" width="302" height="44" rx="12"/>
+    <rect x="354" y="656" width="158" height="44" rx="12"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+{"task": "dashboard", "format": "native_json", "model": "none-fixed-fixture", "environment": "local-macos26-arm64-pilot", "scenario": "cold-process", "success": true, "trial": 0, "output_bytes": 1360, "marker": "gpui_after_frame", "timing_poll_ms": 2, "open_ms": 732.0036249999999}

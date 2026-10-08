@@ -1,0 +1,73 @@
+{
+  "task": "dashboard",
+  "facts": {
+    "version": 1,
+    "root": {
+      "type": "column",
+      "id": "root",
+      "gap": 20,
+      "children": [
+        {
+          "type": "heading",
+          "id": "title",
+          "level": 1,
+          "text": "AWS Cost Forecast"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "text": "Projected spend based on the last 30 days."
+        },
+        {
+          "type": "row",
+          "id": "metrics",
+          "gap": 16,
+          "children": [
+            {
+              "type": "metric",
+              "id": "projected-spend",
+              "label": "Projected",
+              "value": "$412,000",
+              "secondary": "+8.2% vs. current spend"
+            },
+            {
+              "type": "metric",
+              "id": "current-spend",
+              "label": "Current",
+              "value": "$381,000"
+            }
+          ]
+        },
+        {
+          "type": "divider",
+          "id": "forecast-divider"
+        },
+        {
+          "type": "callout",
+          "id": "warning",
+          "kind": "warning",
+          "title": "Potential wasted work",
+          "body": "Most grouped forecast shards are never viewed. Review unused groups before expanding the next forecast run."
+        },
+        {
+          "type": "button",
+          "id": "inspect-shards",
+          "label": "Inspect unused shards",
+          "action": {
+            "type": "noop"
+          }
+        }
+      ]
+    }
+  },
+  "quality_requirements": [
+    "All supplied facts; readable at 1100x760 with scrolling.",
+    "Stable semantic IDs, deepest-node selection, selected-node copy; noop buttons.",
+    "Use supplied facts for all three arms; no invented functional actions."
+  ],
+  "edits": [
+    "Change a metric value if present; preserve its ID.",
+    "Append a table row if present; preserve rectangular shape.",
+    "Rewrite a callout body; preserve its ID."
+  ]
+}

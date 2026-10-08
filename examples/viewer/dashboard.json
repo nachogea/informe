@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "release-readiness-report",
+    "revision": 1,
+    "sources": [
+      {
+        "label": "Illustrative sample data created for the viewer demo; not a live project report"
+      }
+    ]
+  },
+  "root": {
+    "type": "column",
+    "id": "report",
+    "gap": 24,
+    "children": [
+      {
+        "type": "heading",
+        "id": "title",
+        "level": 1,
+        "text": "Release readiness report"
+      },
+      {
+        "type": "markdown",
+        "id": "intro",
+        "source": "**October 2026 · Illustrative project report**\n\nThe next release is on track. Reading and agent handoff flows are stable; the final accessibility pass is the main gate before a wider rollout."
+      },
+      {
+        "type": "row",
+        "id": "summary",
+        "gap": 16,
+        "children": [
+          {
+            "type": "metric",
+            "id": "checks",
+            "label": "CHECKS PASSING",
+            "value": "38 / 40",
+            "secondary": "Two live interaction checks remain"
+          },
+          {
+            "type": "metric",
+            "id": "issues",
+            "label": "ISSUES CLOSED",
+            "value": "24",
+            "secondary": "Across viewer, docs, and packaging"
+          },
+          {
+            "type": "metric",
+            "id": "readiness",
+            "label": "RELEASE READINESS",
+            "value": "80%",
+            "secondary": "Four of five gates complete"
+          }
+        ]
+      },
+      {
+        "type": "chart",
+        "id": "completed-work",
+        "title": "Work completed this cycle",
+        "kind": "bar",
+        "unit": "items",
+        "data": [
+          {
+            "label": "Viewer",
+            "value": 16
+          },
+          {
+            "label": "Documentation",
+            "value": 12
+          },
+          {
+            "label": "Accessibility",
+            "value": 7
+          },
+          {
+            "label": "Packaging",
+            "value": 5
+          },
+          {
+            "label": "Agent workflow",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "id": "release-gates",
+        "title": "Release gates",
+        "columns": [
+          "Area",
+          "Status",
+          "Evidence",
+          "Next action"
+        ],
+        "rows": [
+          [
+            "Viewer",
+            "Complete",
+            "Reading, search, copy",
+            "Watch regressions"
+          ],
+          [
+            "Docs",
+            "Complete",
+            "Guides reviewed",
+            "Gather feedback"
+          ],
+          [
+            "Agent workflow",
+            "Complete",
+            "Example prompts checked",
+            "Polish setup"
+          ],
+          [
+            "Packaging",
+            "Complete",
+            "Source archive checked",
+            "Plan signing"
+          ],
+          [
+            "Accessibility",
+            "In progress",
+            "Keyboard pass pending",
+            "Run live audit"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "id": "recommendation",
+        "level": 2,
+        "text": "Recommended next move"
+      },
+      {
+        "type": "markdown",
+        "id": "details",
+        "source": "Run a **keyboard and VoiceOver pass** on the release build. Fix any blockers, then publish the source preview and invite readers to try a report from their own project.\n\n- Verify navigation and copying without a mouse.\n- Check the installation guide on a clean machine.\n- Record feedback from the first external readers."
+      }
+    ]
+  }
+}

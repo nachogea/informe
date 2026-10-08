@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "root": {
+    "type": "column",
+    "id": "review",
+    "children": [
+      {
+        "type": "heading",
+        "id": "review-title",
+        "level": 1,
+        "text": "Native artifact pilot review"
+      },
+      {
+        "type": "text",
+        "id": "review-description",
+        "text": "Illustrative project review: repeated sections test scrolling and semantic selection."
+      },
+      {
+        "type": "card",
+        "id": "phase-1",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-1-title",
+            "level": 2,
+            "text": "Phase 1: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-1-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-1-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-2",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-2-title",
+            "level": 2,
+            "text": "Phase 2: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-2-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-2-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-3",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-3-title",
+            "level": 2,
+            "text": "Phase 3: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-3-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-3-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-4",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-4-title",
+            "level": 2,
+            "text": "Phase 4: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-4-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-4-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-5",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-5-title",
+            "level": 2,
+            "text": "Phase 5: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-5-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-5-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-6",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-6-title",
+            "level": 2,
+            "text": "Phase 6: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-6-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-6-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-7",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-7-title",
+            "level": 2,
+            "text": "Phase 7: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-7-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-7-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-8",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-8-title",
+            "level": 2,
+            "text": "Phase 8: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-8-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-8-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-9",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-9-title",
+            "level": 2,
+            "text": "Phase 9: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-9-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-9-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-10",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-10-title",
+            "level": 2,
+            "text": "Phase 10: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-10-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-10-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-11",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-11-title",
+            "level": 2,
+            "text": "Phase 11: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-11-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-11-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "id": "phase-12",
+        "children": [
+          {
+            "type": "heading",
+            "id": "phase-12-title",
+            "level": 2,
+            "text": "Phase 12: Review milestone"
+          },
+          {
+            "type": "text",
+            "id": "phase-12-body",
+            "text": "Validate semantic content, preserve stable IDs, and measure the review loop."
+          },
+          {
+            "type": "callout",
+            "id": "phase-12-risk",
+            "kind": "info",
+            "title": "Next check",
+            "body": "Verify the renderer and interaction contract before expanding the node vocabulary."
+          }
+        ]
+      }
+    ]
+  }
+}

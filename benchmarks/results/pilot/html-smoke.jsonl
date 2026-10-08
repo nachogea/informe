@@ -1,0 +1,1 @@
+{"task": "dashboard", "format": "html_shared", "model": "none-fixed-fixture", "environment": "local-macos26-arm64-pilot", "scenario": "cold-process", "success": true, "trial": 0, "output_bytes": 2355, "marker": "html_fonts_two_raf", "open_ms": 2974.543375, "browser": "145.0.7632.6", "interaction_check": true}

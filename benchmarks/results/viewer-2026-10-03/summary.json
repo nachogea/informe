@@ -1,0 +1,209 @@
+[
+  {
+    "task": "dashboard",
+    "format": "native_json",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "cold-process",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 3652.0,
+        "p95": 3652.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 180.77714549999996,
+        "p95": 218.63732885000056
+      }
+    }
+  },
+  {
+    "task": "dashboard",
+    "format": "native_json",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "reload",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 3652.0,
+        "p95": 3652.0
+      },
+      "reload_ms": {
+        "measured_trials": 20,
+        "median": 250.66425000000027,
+        "p95": 266.7429579999999
+      }
+    }
+  },
+  {
+    "task": "dashboard",
+    "format": "native_json",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "warm-repeat-open",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 3652.0,
+        "p95": 3652.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 232.4240419999999,
+        "p95": 250.2478181500006
+      }
+    }
+  },
+  {
+    "task": "plan",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "cold-process",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2355.0,
+        "p95": 2355.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 180.07187500000006,
+        "p95": 182.38974584999985
+      }
+    }
+  },
+  {
+    "task": "plan",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "reload",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2355.0,
+        "p95": 2355.0
+      },
+      "reload_ms": {
+        "measured_trials": 20,
+        "median": 249.1823544999998,
+        "p95": 267.04335354999955
+      }
+    }
+  },
+  {
+    "task": "plan",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "warm-repeat-open",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2355.0,
+        "p95": 2355.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 283.31941699999953,
+        "p95": 299.9456860500002
+      }
+    }
+  },
+  {
+    "task": "report",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "cold-process",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2152.0,
+        "p95": 2152.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 180.35356250000012,
+        "p95": 183.32645864999984
+      }
+    }
+  },
+  {
+    "task": "report",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "reload",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2152.0,
+        "p95": 2152.0
+      },
+      "reload_ms": {
+        "measured_trials": 20,
+        "median": 250.15677049999985,
+        "p95": 267.27893124999997
+      }
+    }
+  },
+  {
+    "task": "report",
+    "format": "native_markdown",
+    "model": "none-fixed-fixture",
+    "environment": "M4-macOS26.6.2-release-viewer-pass",
+    "scenario": "warm-repeat-open",
+    "trials": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "usage_all_trials": {},
+    "metrics_successful_trials": {
+      "output_bytes": {
+        "measured_trials": 20,
+        "median": 2152.0,
+        "p95": 2152.0
+      },
+      "open_ms": {
+        "measured_trials": 20,
+        "median": 251.87502099999958,
+        "p95": 268.36964969999997
+      }
+    }
+  }
+]
